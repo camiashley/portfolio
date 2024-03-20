@@ -1,0 +1,86 @@
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    text-align: center;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.contactPageTitle {
+    font-size: 3rem;
+    text-align: center;
+    
+    
+}
+
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.contactPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.name, .email, .msg{
+    font-size:medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40,40,40);
+
+}
+.submitB{
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    
+  
+
+}
+.submitB:hover{
+    background-color:rgb(208, 121, 208);
+}
+
+
+.github{
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link{
+    object-fit: cover;
+    
+    margin: 0 0.75rem;
+
+}

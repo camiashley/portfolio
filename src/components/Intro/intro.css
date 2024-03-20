@@ -1,0 +1,116 @@
+.intro {
+    height: calc(100vh - 4rem);
+    width: 100w;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.pro {
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 80vh;
+}
+.introContent{
+    height: 100vh;
+    width: 100vh;
+    padding: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: red;
+}
+
+.btn{
+    color: black;
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+.btn:hover{
+    background-color:greenyellow;
+}
+
+@media screen and ( max-width:840px){
+   
+    /* .introText{
+        display: inline-block;
+    }
+    */
+     .pro { 
+      
+        right: -15vw;
+        top: 25vw;
+        
+        
+        
+        
+    } 
+   /*
+     .intro{
+        overflow: hidden;
+        width: 100vw;
+        max-width: 65rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+        
+       
+    } 
+    */
+    .hello{
+        overflow: hidden;
+    }
+    .introText{
+        
+        margin-top: 20rem;
+    }
+   
+    
+  
+  
+  .btn{
+    margin-bottom: 10rem;
+  }
+
+   
+    
+     .introContent{
+        
+        font-weight: bold;
+        text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+       
+ 
+    width: 100vw;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10rem;
+        
+ 
+    }  
+}
+
